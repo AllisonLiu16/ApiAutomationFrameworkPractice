@@ -1,0 +1,2 @@
+# ApiAutomationFrameworkPractice
+用来练手的api自动化框架项目，尽可能做到通用
