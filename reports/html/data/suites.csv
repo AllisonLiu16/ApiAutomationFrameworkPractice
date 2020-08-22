@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 20 13:04:09 CST 2020","Thu Aug 20 13:04:09 CST 2020","98","testcases.server","test_admin_controller","TestAdminController","","","test_case_1_get_admin_info",""
+"passed","Thu Aug 20 13:04:09 CST 2020","Thu Aug 20 13:04:09 CST 2020","82","testcases.server","test_admin_controller","TestAdminController","","","test_case_3_get_admin_by_id",""
+"passed","Thu Aug 20 07:59:54 CST 2020","Thu Aug 20 07:59:54 CST 2020","86","testcases.client","test_edu_user_controller","TestEduUserController","","","test_case_1_get_edu_user_info",""
+"passed","Thu Aug 20 13:04:09 CST 2020","Thu Aug 20 13:04:09 CST 2020","85","testcases.server","test_admin_controller","TestAdminController","","","test_case_2_get_admin_list",""

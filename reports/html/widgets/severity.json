@@ -1,0 +1,41 @@
+[ {
+  "uid" : "f02d5f6ab9ba8668",
+  "name" : "test_case_1_get_edu_user_info",
+  "time" : {
+    "start" : 1597881594208,
+    "stop" : 1597881594294,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7365f03b020c8f4f",
+  "name" : "test_case_2_get_admin_list",
+  "time" : {
+    "start" : 1597899849568,
+    "stop" : 1597899849653,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "111ae8cbe67e724a",
+  "name" : "test_case_1_get_admin_info",
+  "time" : {
+    "start" : 1597899849468,
+    "stop" : 1597899849566,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba6580aad8830022",
+  "name" : "test_case_3_get_admin_by_id",
+  "time" : {
+    "start" : 1597899849655,
+    "stop" : 1597899849737,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

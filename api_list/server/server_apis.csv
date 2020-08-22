@@ -1,0 +1,8 @@
+api_name,description,uri,method,header,params,body
+get_admin_by_id,通过adminId查管理员信息,admin/get/{adminId},GET,,,
+get_admin_list,获取管理员列表,admin/getList,POST,,,"{
+  ""adminId"": 1
+}"
+get_teacher_list,获取老师列表,eduTeacher/selectTeacherList,POST,,,"{ “pageNum”: 1,
+   “pageSize”: 10
+}"

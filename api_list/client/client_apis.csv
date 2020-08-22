@@ -1,0 +1,5 @@
+api_name,description,uri,method,header,params,body
+get_user_list,查询用户信息,appletsEduUser/findOne,POST,"{""Content_Type"": ""application/json""}",,"{
+    ""pageNum"": ""1"",
+    ""pageSize"": ""10""
+}"
