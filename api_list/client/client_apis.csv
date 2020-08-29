@@ -3,3 +3,9 @@ get_user_list,查询用户信息,appletsEduUser/findOne,POST,"{""Content_Type"":
     ""pageNum"": ""1"",
     ""pageSize"": ""10""
 }"
+get_course_order,获取课程订单,courseOrder/myCourseOrder,POST,"{""Content_Type"": ""application/json""}",,"{
+    ""pageNum"": ""1"",
+    ""pageSize"": ""10"",
+    ""state"": ""0"",
+    ""userId"": ""15""
+}"

@@ -52,10 +52,8 @@ class Basic(GlobalConfig):
 
     @staticmethod
     def customize_api_body(body):
-        if body:
-            body = json.dumps(body)
-        else:
-            body = dict()
+        if body is None:
+            body = json.dumps(dict())
         return body
 
     def get_api_by_name(self, api_name):
@@ -82,7 +80,6 @@ class Basic(GlobalConfig):
         header = api_info["header"]
         params = api_info["params"]
         body = api_info["body"]
-
         matching_regex = re.search(r"{.*}", uri)
         if matching_regex:
             if uri_id:

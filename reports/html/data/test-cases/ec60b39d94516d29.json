@@ -1,0 +1,96 @@
+{
+  "uid" : "ec60b39d94516d29",
+  "name" : "test_case_3_get_admin_by_id",
+  "fullName" : "testcases.server.test_admin_controller.TestAdminController#test_case_3_get_admin_by_id",
+  "historyId" : "9e1d48053ec1e6945858cbd106a5cbf0",
+  "time" : {
+    "start" : 1598669399707,
+    "stop" : 1598669399780,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "通过ID获取管理员信息"
+  }, {
+    "name" : "feature",
+    "value" : "后台管理员相关接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.server"
+  }, {
+    "name" : "suite",
+    "value" : "test_admin_controller"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdminController"
+  }, {
+    "name" : "host",
+    "value" : "LiuNan.local"
+  }, {
+    "name" : "thread",
+    "value" : "55525-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.server.test_admin_controller"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "96a9c5b631f62538",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598000284130,
+        "stop" : 1598000284235,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "9ef585c975e70c32",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'get_admin_by_id'",
+      "time" : {
+        "start" : 1598000046304,
+        "stop" : 1598000046305,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "981dfc375aa584da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597899849655,
+        "stop" : 1597899849737,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "c25b351a037cc8f",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'get_admin_by_id'",
+      "time" : {
+        "start" : 1597899289777,
+        "stop" : 1597899289778,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec60b39d94516d29.json",
+  "parameterValues" : [ ]
+}

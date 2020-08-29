@@ -20,8 +20,6 @@ class GlobalConfig:
         content = f.read().split("\n")
         env = content[0]
         client_or_server = content[1]
-        print(env)
-        print(client_or_server)
 
     # 读取配置文件相关配置信息
     # 路径：root_path/env/env.ini

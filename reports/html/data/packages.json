@@ -7,13 +7,26 @@
       "name" : "client.test_edu_user_controller",
       "children" : [ {
         "name" : "test_case_1_get_edu_user_info",
-        "uid" : "f02d5f6ab9ba8668",
+        "uid" : "ec08d3b973030d92",
         "parentUid" : "4d02420af4dee92eac73650b5f40ed2d",
         "status" : "passed",
         "time" : {
-          "start" : 1597881594208,
-          "stop" : 1597881594294,
-          "duration" : 86
+          "start" : 1598627739738,
+          "stop" : 1598627739829,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case_2_get_course_order",
+        "uid" : "98191880b18bb7f4",
+        "parentUid" : "4d02420af4dee92eac73650b5f40ed2d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598665408453,
+          "stop" : 1598665408545,
+          "duration" : 92
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,39 +37,39 @@
       "name" : "server.test_admin_controller",
       "children" : [ {
         "name" : "test_case_1_get_admin_info",
-        "uid" : "111ae8cbe67e724a",
+        "uid" : "15c9ffe5799d497",
         "parentUid" : "0e969b43b0cccffe5d829df30e66c08e",
         "status" : "passed",
         "time" : {
-          "start" : 1597899849468,
-          "stop" : 1597899849566,
-          "duration" : 98
+          "start" : 1598669399291,
+          "stop" : 1598669399620,
+          "duration" : 329
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_case_2_get_admin_list",
-        "uid" : "7365f03b020c8f4f",
+        "uid" : "e2943e879f252d69",
         "parentUid" : "0e969b43b0cccffe5d829df30e66c08e",
         "status" : "passed",
         "time" : {
-          "start" : 1597899849568,
-          "stop" : 1597899849653,
-          "duration" : 85
+          "start" : 1598669399624,
+          "stop" : 1598669399705,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_case_3_get_admin_by_id",
-        "uid" : "ba6580aad8830022",
+        "uid" : "ec60b39d94516d29",
         "parentUid" : "0e969b43b0cccffe5d829df30e66c08e",
         "status" : "passed",
         "time" : {
-          "start" : 1597899849655,
-          "stop" : 1597899849737,
-          "duration" : 82
+          "start" : 1598669399707,
+          "stop" : 1598669399780,
+          "duration" : 73
         },
         "flaky" : false,
         "newFailed" : false,

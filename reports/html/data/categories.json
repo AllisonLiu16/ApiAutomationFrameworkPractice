@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "children" : [ {
+        "name" : "test_case_2_get_course_order",
+        "uid" : "98191880b18bb7f4",
+        "parentUid" : "93cb33d5d22503c821557334b925b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598665408453,
+          "stop" : 1598665408545,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93cb33d5d22503c821557334b925b7f2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

@@ -1,0 +1,18 @@
+# coding:utf-8
+
+from config.global_config import GlobalConfig
+from common.basic_handler import Basic
+import allure
+
+class ${class_name}:
+
+    cookies = GlobalConfig.cookies
+    base_url = GlobalConfig.base_url
+
+    @allure.story("")
+    def test_${case["case_name"]}:
+        <%
+            api_info = Basic().get_api_by_name(${case["case_name"]})
+            content = Basic().send_request(**api_info)
+            assert content.status_code == 200
+        %>

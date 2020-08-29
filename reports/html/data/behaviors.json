@@ -7,19 +7,36 @@
       "name" : "查询用户信息接口",
       "children" : [ {
         "name" : "test_case_1_get_edu_user_info",
-        "uid" : "f02d5f6ab9ba8668",
+        "uid" : "ec08d3b973030d92",
         "parentUid" : "eb7354ffea80b1739a0ff38f12cbc444",
         "status" : "passed",
         "time" : {
-          "start" : 1597881594208,
-          "stop" : 1597881594294,
-          "duration" : 86
+          "start" : 1598627739738,
+          "stop" : 1598627739829,
+          "duration" : 91
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "eb7354ffea80b1739a0ff38f12cbc444"
+    }, {
+      "name" : "获取用户课程信息",
+      "children" : [ {
+        "name" : "test_case_2_get_course_order",
+        "uid" : "98191880b18bb7f4",
+        "parentUid" : "bbad11b97cc0f016783e73579b30ae43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598665408453,
+          "stop" : 1598665408545,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bbad11b97cc0f016783e73579b30ae43"
     } ],
     "uid" : "97dca09d5093d877b3aff03280998df6"
   }, {
@@ -28,13 +45,13 @@
       "name" : "获取某管理员信息",
       "children" : [ {
         "name" : "test_case_1_get_admin_info",
-        "uid" : "111ae8cbe67e724a",
+        "uid" : "15c9ffe5799d497",
         "parentUid" : "70ab437d59d9336202b0b08c56a93657",
         "status" : "passed",
         "time" : {
-          "start" : 1597899849468,
-          "stop" : 1597899849566,
-          "duration" : 98
+          "start" : 1598669399291,
+          "stop" : 1598669399620,
+          "duration" : 329
         },
         "flaky" : false,
         "newFailed" : false,
@@ -45,13 +62,13 @@
       "name" : "获取管理员列表",
       "children" : [ {
         "name" : "test_case_2_get_admin_list",
-        "uid" : "7365f03b020c8f4f",
+        "uid" : "e2943e879f252d69",
         "parentUid" : "feaf4239b2ab043fb4b2cedf57c2de14",
         "status" : "passed",
         "time" : {
-          "start" : 1597899849568,
-          "stop" : 1597899849653,
-          "duration" : 85
+          "start" : 1598669399624,
+          "stop" : 1598669399705,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +79,13 @@
       "name" : "通过ID获取管理员信息",
       "children" : [ {
         "name" : "test_case_3_get_admin_by_id",
-        "uid" : "ba6580aad8830022",
+        "uid" : "ec60b39d94516d29",
         "parentUid" : "44448b7596d7eba6ba376c0a43ca32f2",
         "status" : "passed",
         "time" : {
-          "start" : 1597899849655,
-          "stop" : 1597899849737,
-          "duration" : 82
+          "start" : 1598669399707,
+          "stop" : 1598669399780,
+          "duration" : 73
         },
         "flaky" : false,
         "newFailed" : false,
